@@ -20,7 +20,9 @@ a {
 a:hover {
   color: #6633ff;
 }
-
+a.selected {
+  color: white;
+}
 /* Section Styles */
 
 .main-nav {
@@ -71,10 +73,10 @@ header .profile-image {
   height: 150px;
   border-radius: 50%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: all 1s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
   background-color: #efefef;
