@@ -115,6 +115,22 @@ ul.skills {
   margin: 2px;
 }
 
+#html {
+  background: #33adff;
+}
+
+#css {
+  background: #0066ff;
+}
+
+#javascript {
+  background: #990000;
+}
+
+#ios {
+  background: #00cc99;
+}
+
 footer {
   width: 100%;
   min-height: 30px;
